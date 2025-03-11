@@ -1,0 +1,58 @@
+body {
+    background-color: pink;
+}
+h1{
+    font-family: Sofia;
+}
+h2{
+    font-family: Sofia;
+}
+h3{
+    font-family: Sofia;
+}
+/* Flower container */
+.flower-container {
+    border: 2px dashed #ff69b4;
+    padding: 20px;
+    margin: 20px auto;
+    cursor: pointer;
+    border-radius: 10px;
+    min-height: 150px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Flowers animation */
+.flower {
+    position: absolute;
+    font-size: 30px;
+    transition: transform 1.5s ease-in-out;
+}
+
+/* Apology message */
+#apology {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Buttons */
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e84118;
+}
